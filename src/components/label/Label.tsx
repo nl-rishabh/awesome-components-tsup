@@ -1,5 +1,7 @@
 import React from "react";
 
+import { cn } from "@/lib/utils";
+
 export interface LabelProps extends React.ComponentPropsWithoutRef<"label"> {}
 
 const Label = React.forwardRef<HTMLLabelElement, LabelProps>(
@@ -7,10 +9,13 @@ const Label = React.forwardRef<HTMLLabelElement, LabelProps>(
     return (
       <label
         ref={forwardedRef}
-        className="text-gray-900 peer-disabled:cursor-not-allowed peer-disabled:text-gray-600 peer-disabled:opacity-75"
+        className={cn(
+          "text-gray-900 peer-disabled:cursor-not-allowed peer-disabled:text-gray-600 peer-disabled:opacity-75",
+          className
+        )}
         {...props}
       >
-        Label
+        {children}
       </label>
     );
   }
