@@ -6,7 +6,9 @@
   },
   "version": "0.1.0",
   "description": "My awesome component library",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
