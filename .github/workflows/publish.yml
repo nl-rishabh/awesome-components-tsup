@@ -10,7 +10,7 @@ concurrency: ${{github.workflow}}-${{github.ref}}
 jobs:
   publish:
     name: Publish
-    runs-on: ubunti-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
