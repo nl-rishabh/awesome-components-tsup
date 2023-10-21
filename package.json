@@ -2,7 +2,7 @@
   "name": "@nl-rishabh/awesome-components-tsup",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nl-rishabh/component-package-demo.git"
+    "url": "https://github.com/nl-rishabh/awesome-components-tsup.git"
   },
   "version": "0.1.0",
   "description": "My awesome component library",
@@ -27,7 +27,10 @@
     "prettier:write": "prettier . --write",
     "publish": "changeset publish"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "component library"
+  ],
   "author": "Rishabh Dixit (rishabh@newslaundry.com)",
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
