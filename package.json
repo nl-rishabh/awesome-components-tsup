@@ -1,5 +1,9 @@
 {
   "name": "@nl-rishabh/awesome-components-tsup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nl-rishabh/component-package-demo.git"
+  },
   "version": "0.1.0",
   "description": "My awesome component library",
   "private": false,
