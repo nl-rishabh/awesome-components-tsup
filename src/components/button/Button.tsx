@@ -4,8 +4,6 @@ import { cn } from "@/lib/utils";
 
 export interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {}
 
-const x = "";
-
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, children, ...props }, forwardedRef) => {
     return (
