@@ -19,7 +19,8 @@
     "build": "tsup --config ./tsup.config.ts",
     "prepare": "husky install",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
-    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier . --check",
+    "prettier:write": "prettier . --write",
     "publish": "changeset publish"
   },
   "keywords": [],
