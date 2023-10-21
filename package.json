@@ -1,6 +1,6 @@
 {
-  "name": "awesome-components-tsup",
-  "version": "0.0.0",
+  "name": "@nl-rishabh/awesome-components-tsup",
+  "version": "0.0.1",
   "description": "My awesome component library",
   "private": false,
   "main": "./dist/index.js",
@@ -19,10 +19,11 @@
     "build": "tsup --config ./tsup.config.ts",
     "prepare": "husky install",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
-    "prettier:write": "prettier --write ."
+    "prettier:write": "prettier --write .",
+    "publish": "changeset publish"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rishabh Dixit (rishabh@newslaundry.com)",
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.2",
