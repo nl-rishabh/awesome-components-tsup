@@ -83,7 +83,7 @@
     "vitest": "^0.34.6"
   },
   "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18 || ^16",
+    "react-dom": "^18 || ^16"
   }
 }
