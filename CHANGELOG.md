@@ -1,5 +1,11 @@
 # @nl-rishabh/awesome-components-tsup
 
+## 0.1.3
+
+### Patch Changes
+
+- [#8](https://github.com/nl-rishabh/awesome-components-tsup/pull/8) [`4eb1227`](https://github.com/nl-rishabh/awesome-components-tsup/commit/4eb12273eb7a53d8e7fd3a03b0e846acef1f5f40) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - New version naming
+
 ## 0.1.2
 
 ### Patch Changes
