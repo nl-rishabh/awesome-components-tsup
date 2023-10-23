@@ -1,5 +1,11 @@
 # @nl-rishabh/awesome-components-tsup
 
+## 0.1.2
+
+### Patch Changes
+
+- [#6](https://github.com/nl-rishabh/awesome-components-tsup/pull/6) [`6accd02`](https://github.com/nl-rishabh/awesome-components-tsup/commit/6accd020bd2b583c45651a6fd087979d365e0cb8) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - fixed react 16 peer dependency issue
+
 ## 0.1.1
 
 ### Patch Changes
