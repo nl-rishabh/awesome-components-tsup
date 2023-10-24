@@ -1,5 +1,11 @@
 # @nl-rishabh/awesome-components-tsup
 
+## 0.2.0
+
+### Minor Changes
+
+- [#10](https://github.com/nl-rishabh/awesome-components-tsup/pull/10) [`0d1adc7`](https://github.com/nl-rishabh/awesome-components-tsup/commit/0d1adc7d66edd324b781102295a0da4a57d3aedf) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - Added Slack CI Integration
+
 ## 0.1.3
 
 ### Patch Changes
